@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Available Cars - CarRental</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .car-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      background-color: #fff;
+      transition: 0.3s;
+    }
+
+    .car-card:hover {
+      transform: scale(1.02);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .car-info h3 {
+      margin: 10px 0 5px;
+    }
+
+    .specs {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .rent-btn {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 8px 12px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong style="color:#007bff;">CarRental</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cars.html">Cars</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align:center; margin-top: 20px;">Available Cars</h2>
+
+    <section class="car-grid">
+      <!-- Car 1 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\toyotocamry.webp" alt="Toyota Camry">
+        <div class="car-info">
+          <h3>Toyota Camry</h3>
+          <div class="specs">
+            <p>🚗 Type: Sedan</p>
+            <p>⚙️ Transmission: Automatic</p>
+            <p>🛢️ Fuel: Petrol</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 2500/Day</p>
+          </div>
+          <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+
+        </div>
+      </div>
+
+      <!-- Car 2 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\frodmustang.jpg" alt="Ford Mustang">
+        <div class="car-info">
+          <h3>Ford Mustang</h3>
+          <div class="specs">
+            <p>🚗 Type: Coupe</p>
+            <p>⚙️ Transmission: Manual</p>
+            <p>🛢️ Fuel: Petrol</p>
+            <p>👥 Seats: 4</p>
+	    <p>💸 Rupees: 6000/Day</p>
+          </div>
+         <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Ford Mustang%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 3 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\hondacsr-v.webp" alt="Honda CR-V">
+        <div class="car-info">
+          <h3>Honda CR-V</h3>
+          <div class="specs">
+            <p>🚗 Type: SUV</p>
+            <p>⚙️ Transmission: Automatic</p>
+            <p>🛢️ Fuel: Diesel</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 3000/Day</p>
+          </div>
+          <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 4 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\teslamodel3.jpg" alt="Tesla Model 3">
+        <div class="car-info">
+          <h3>Tesla Model 3</h3>
+          <div class="specs">
+            <p>🚗 Type: Sedan</p>
+            <p>⚙️ Transmission: Automatic</p>
+            <p>🔋 Fuel: Electric</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 5000/Day</p>
+          </div>
+         <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 5 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\jeepwrangler.jpg" alt="Jeep Wrangler">
+        <div class="car-info">
+          <h3>Jeep Wrangler</h3>
+          <div class="specs">
+            <p>🚗 Type: SUV</p>
+            <p>⚙️ Transmission: Manual</p>
+            <p>🛢️ Fuel: Petrol</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 4000/Day</p>
+          </div>
+        <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 6 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\hyndaii20.webp" alt="Hyundai i20">
+        <div class="car-info">
+          <h3>Hyundai i20</h3>
+          <div class="specs">
+            <p>🚗 Type: Hatchback</p>
+            <p>⚙️ Transmission: Manual</p>
+            <p>🛢️ Fuel: Petrol</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 1500/Day</p>
+          </div>
+        <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 7 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\BMW5series.jpg" alt="BMW 5 Series">
+        <div class="car-info">
+          <h3>BMW 5 Series</h3>
+          <div class="specs">
+            <p>🚗 Type: Luxury Sedan</p>
+            <p>⚙️ Transmission: Automatic</p>
+            <p>🛢️ Fuel: Diesel</p>
+            <p>👥 Seats: 5</p>
+            <p>💸 Rupees: 7000/Day</p>
+          </div>
+         <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+      <!-- Car 8 -->
+      <div class="car-card">
+        <img src="D:\car_renting_\earitga.webp" alt="Maruti Ertiga">
+        <div class="car-info">
+          <h3>Maruti Ertiga</h3>
+          <div class="specs">
+            <p>🚗 Type: MUV</p>
+            <p>⚙️ Transmission: Automatic</p>
+            <p>🛢️ Fuel: Petrol</p>
+            <p>👥 Seats: 7</p>
+            <p>💸 Rupees: 2000/Day</p>
+          </div>
+          <a 
+  href="https://wa.me/919545649890?text=Hello%2C%20I%20want%20to%20rent%20the%20Toyota%20Camry%20at%20%E2%82%B92500%2Fday.%0A%0APlease%20find%20my%20booking%20details%3A%0AName%3A%20%0AAddress%20%2F%20Pickup%20Location%3A%20%0ADate%20Required%3A%20%0AReturn%20Date%3A%20" 
+  class="rent-btn" 
+  target="_blank">
+  Rent Now
+</a>
+
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#888;">
+    &copy; 2025 Car Rental
+  </footer>
+
+</body>
+</html>
